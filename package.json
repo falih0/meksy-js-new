@@ -1,0 +1,27 @@
+{
+  "name": "meksyjs-new",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "index.js"
+  },
+  "author": "Meksy.js",
+  "license": "ISC",
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.37",
+    "axios": "^1.3.4",
+    "canvacord": "^5.4.8",
+    "canvas": "^2.11.0",
+    "croxydb": "^0.0.7",
+    "discord.js": "^14.7.1",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "moment": "^2.29.4",
+    "moment-duration-format": "^2.3.2",
+    "ms": "^2.1.3",
+    "os": "^0.1.2",
+    "string-similarity": "^4.0.4"
+  }
+}
