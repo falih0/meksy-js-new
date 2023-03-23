@@ -73,15 +73,6 @@ require("./events/ready.js")
 	member.roles.add(otorol.rol).catch(() => {}).catch((err) => err.stack)
   });
   
-  client.on('messageCreate', async message => {
-  
-	const tag = await db.fetch(`tag_${message.guild.id}`);
-	if(message.content.includes(`.tag`)) {
-	if(!tag) return; 
-	message.channel.send(`\`${tag}\``);
-	}
-  });
-
 client.on("messageCreate", (message) => {
 let kufur = db.fetch(`kufurengel_${message.guild.id}`)
 if(!kufur) return;
